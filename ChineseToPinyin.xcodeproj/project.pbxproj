@@ -15,6 +15,7 @@
 		14B916411CDB359C00CC732D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B9163F1CDB359C00CC732D /* LaunchScreen.storyboard */; };
 		14B9164C1CDB359C00CC732D /* ChineseToPinyinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B9164B1CDB359C00CC732D /* ChineseToPinyinTests.m */; };
 		14B916571CDB359C00CC732D /* ChineseToPinyinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B916561CDB359C00CC732D /* ChineseToPinyinUITests.m */; };
+		14B916671CDB37E400CC732D /* NSString+TransformTextToLatin.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B916661CDB37E400CC732D /* NSString+TransformTextToLatin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		14B916521CDB359C00CC732D /* ChineseToPinyinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChineseToPinyinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B916561CDB359C00CC732D /* ChineseToPinyinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinUITests.m; sourceTree = "<group>"; };
 		14B916581CDB359C00CC732D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B916651CDB37E400CC732D /* NSString+TransformTextToLatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TransformTextToLatin.h"; sourceTree = "<group>"; };
+		14B916661CDB37E400CC732D /* NSString+TransformTextToLatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TransformTextToLatin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		14B916301CDB359C00CC732D /* ChineseToPinyin */ = {
 			isa = PBXGroup;
 			children = (
+				14B916641CDB37E400CC732D /* TextToLatin */,
 				14B916341CDB359C00CC732D /* AppDelegate.h */,
 				14B916351CDB359C00CC732D /* AppDelegate.m */,
 				14B916371CDB359C00CC732D /* ViewController.h */,
@@ -138,6 +142,15 @@
 				14B916581CDB359C00CC732D /* Info.plist */,
 			);
 			path = ChineseToPinyinUITests;
+			sourceTree = "<group>";
+		};
+		14B916641CDB37E400CC732D /* TextToLatin */ = {
+			isa = PBXGroup;
+			children = (
+				14B916651CDB37E400CC732D /* NSString+TransformTextToLatin.h */,
+				14B916661CDB37E400CC732D /* NSString+TransformTextToLatin.m */,
+			);
+			path = TextToLatin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14B916391CDB359C00CC732D /* ViewController.m in Sources */,
+				14B916671CDB37E400CC732D /* NSString+TransformTextToLatin.m in Sources */,
 				14B916361CDB359C00CC732D /* AppDelegate.m in Sources */,
 				14B916331CDB359C00CC732D /* main.m in Sources */,
 			);
